@@ -3,7 +3,7 @@ FROM node:20
 LABEL name="wintrcat/freechess"
 LABEL version="1.0.0"
 
-WORKDIR /usr/app/
+WORKDIR /app/
 
 COPY . .
 
